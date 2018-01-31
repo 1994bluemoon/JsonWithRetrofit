@@ -1,4 +1,4 @@
-package vinova.henry.com.retrofituser.models.pojo;
+package vinova.henry.com.retrofituser.models;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
