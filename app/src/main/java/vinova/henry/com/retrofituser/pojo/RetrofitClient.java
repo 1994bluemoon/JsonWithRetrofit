@@ -1,4 +1,4 @@
-package vinova.henry.com.retrofituser.models.pojo;
+package vinova.henry.com.retrofituser.pojo;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;

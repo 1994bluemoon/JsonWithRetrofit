@@ -1,4 +1,4 @@
-package vinova.henry.com.retrofituser.models.pojo;
+package vinova.henry.com.retrofituser.pojo;
 
 /**
  * Created by dminh on 1/31/2018.
