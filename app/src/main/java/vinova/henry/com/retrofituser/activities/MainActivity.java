@@ -16,9 +16,9 @@ import retrofit2.Response;
 import vinova.henry.com.retrofituser.R;
 import vinova.henry.com.retrofituser.adapters.UserAdapter;
 import vinova.henry.com.retrofituser.models.User;
-import vinova.henry.com.retrofituser.models.pojo.ApiUtils;
-import vinova.henry.com.retrofituser.models.pojo.IUserService;
-import vinova.henry.com.retrofituser.models.pojo.ResultResponse;
+import vinova.henry.com.retrofituser.pojo.ApiUtils;
+import vinova.henry.com.retrofituser.pojo.IUserService;
+import vinova.henry.com.retrofituser.models.ResultResponse;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
         IuserService = ApiUtils.getSOService();
 
         Call<ResultResponse> call = IuserService.getServerData("0", "10");
+
         call.enqueue(new Callback<ResultResponse>() {
             @Override
             public void onResponse(Call<ResultResponse> call, Response<ResultResponse> response) {
