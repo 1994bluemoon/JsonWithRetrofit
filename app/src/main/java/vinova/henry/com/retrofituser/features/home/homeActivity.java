@@ -1,4 +1,4 @@
-package vinova.henry.com.retrofituser.activities;
+package vinova.henry.com.retrofituser.features.home;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -20,7 +20,7 @@ import vinova.henry.com.retrofituser.pojo.ApiUtils;
 import vinova.henry.com.retrofituser.pojo.IUserService;
 import vinova.henry.com.retrofituser.models.ResultResponse;
 
-public class MainActivity extends AppCompatActivity {
+public class homeActivity extends AppCompatActivity {
 
     IUserService IuserService;
     List<User> users;
